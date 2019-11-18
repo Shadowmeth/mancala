@@ -8,7 +8,7 @@ int main(void)
 
 	init_board(board);
 
-	char p_turn = 1;
+	int p_turn = 1;
 	int input;
 	
 	while (!game_over(board)) {
