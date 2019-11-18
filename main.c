@@ -30,7 +30,7 @@ int main(void)
 	} else if (c_gem_count > p_gem_count) {
 	    printf("P2 wins\n");
 	} else {
-	    /* I'm not sure if draw is even possible in this game but just as a extra precaution */
+	    /* I'm not sure if draw is even possible in this game but just as an extra precaution */
 	    printf("Draw\n");
 	}
 	
